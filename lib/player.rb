@@ -8,7 +8,7 @@ class Player
     @score = 60
   end
 
-  def attack
+  def receive_damage
     @score -= 10
   end
 
