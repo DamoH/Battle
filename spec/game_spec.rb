@@ -1,3 +1,5 @@
+require 'game'
+
 describe Game do
     subject(:game) { described_class.new }
     let(:player_1) { double :player }
@@ -6,7 +8,7 @@ describe Game do
     describe '#attack' do
       it 'damages the player' do
         expect(player_2).to receive(:attack)
-        game.attack(player_2)
+        # game.attack(player_2)
 
       end
     end
