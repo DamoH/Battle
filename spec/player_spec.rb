@@ -6,6 +6,7 @@ describe Player do
   describe 'it returns player name' do
     it 'prints the name of player' do
       expect(bob.name).to eq("bob")
+
     end
   end
 
